@@ -1,4 +1,4 @@
-import { NewInspectionForm } from "@/features/inspections/NewInspectionForm";
+import { NewInspectionForm } from "@/features/inspections/components/NewInspectionForm";
 
 export default function NewInspectionPage() {
   return <NewInspectionForm />;

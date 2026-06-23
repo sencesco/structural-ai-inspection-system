@@ -1,0 +1,6 @@
+datasets:
+  - name: StructDamage-balanced
+    version: v0.1.0
+    source: Kaggle
+    image_count: 40000
+    status: placeholder

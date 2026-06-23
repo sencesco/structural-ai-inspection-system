@@ -1,0 +1,8 @@
+models:
+  - name: crack_detector
+    version: v0.1.0
+    dataset: StructDamage-balanced-40000
+    status: placeholder
+    metrics:
+      map50: null
+      false_positive_rate: null

@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-06-22T00:00:00Z",
+  "level": "ERROR",
+  "service": "api",
+  "event": "inference_failed",
+  "request_id": "demo-request-id",
+  "error_type": "ModelUnavailableError",
+  "message": "Model artifact is not available."
+}

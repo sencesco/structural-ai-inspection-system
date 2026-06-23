@@ -1,0 +1,13 @@
+name: Docker Build
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  docker-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder
+        run: echo "Build Docker images here"

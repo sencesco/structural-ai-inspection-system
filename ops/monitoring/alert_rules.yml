@@ -1,0 +1,10 @@
+groups:
+  - name: structural-ai-alerts
+    rules:
+      - alert: HighApiErrorRate
+        expr: api_error_rate > 0.05
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: API error rate is above demo threshold.

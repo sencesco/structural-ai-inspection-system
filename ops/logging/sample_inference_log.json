@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-22T00:00:00Z",
+  "level": "INFO",
+  "service": "inference",
+  "event": "prediction_completed",
+  "request_id": "demo-request-id",
+  "model_version": "v0.1.0",
+  "latency_ms": 120,
+  "confidence": 0.87
+}
