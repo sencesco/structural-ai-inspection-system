@@ -1,0 +1,14 @@
+---
+description: Project-level AI coding rules
+alwaysApply: true
+---
+
+This project uses `AGENTS.md` as the canonical agent context.
+
+Before editing, read `AGENTS.md`.
+Use `docs/agent/` only when the task needs deeper context.
+Use `skills/` only for repeated task workflows.
+Avoid scanning the full repository unless necessary.
+Use this file only as a thin pointer. Do not duplicate project brain here.
+
+For frontend design work, use the `frontend-design` skill. If needed, read `SKILL.md`.
